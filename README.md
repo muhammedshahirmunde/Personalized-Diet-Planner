@@ -1,6 +1,6 @@
 # Personalized Diet Planner
 
-A full-stack hackathon project that provides personalized diet plans based on BMI and health goals. Built with a monorepo structure using modern web technologies.
+A full-stack hackathon project that provides personalized diet plans based on BMI and health goals. Built with a monorepo structure using modern web technologies. The final push was delayed due to that I was encountering an HTTP 503 error from the Git server.
 
 ---
 
