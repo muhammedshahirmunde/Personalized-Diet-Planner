@@ -64,7 +64,14 @@ npm install
 cd ../server
 npm install
 
-Create .env files in both /client and /server with necessary keys like:
+Create .env file in client with necessary key:
+VITE_BASE_URL=http://localhost:3000/api/v1
+
+Create .env file in server with necessary keys:
+MONGO_URI=mongodb://localhost:27017/dietPlanner
+PORT=3000
+JWT_SECRET=authenticated_user_secret
+BASIC_API_URL=/api/v1
 
 MONGO_URI
 JWT_SECRET
