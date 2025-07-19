@@ -10,8 +10,8 @@ const UserSidebar = lazy(() => import('./UserSidebar'))
 
 export const Header: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const userData = useSelector((state: RootState) => state?.auth?.user);    
-    const username: string = userData.name;
-    const role: string = userData.role
+    const username: string = userData?.name;
+    const role: string = userData?.role || 'user'
 
     const navigate = useNavigate();
 

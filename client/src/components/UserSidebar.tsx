@@ -21,10 +21,9 @@ const UserSidebar: React.FC = () => {
 
   return (
     <div
-     className={`bg-gray-900 text-white transition-all duration-300 flex flex-col ${
-  isOpen ? "w-64" : "w-20"
-} sm:w-20 md:w-64`}
-
+      className={`bg-gray-900 text-white transition-all duration-300 flex flex-col ${
+        isOpen ? "w-64" : "w-20"
+      }`}
     >
       <button onClick={toggleSidebar} className="p-4 bg-gray-900">
         <div className="flex items-center space-x-2">
